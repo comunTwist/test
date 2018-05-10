@@ -1,0 +1,165 @@
+@import "entrance.css";
+@import "forms.css";
+@import "tables.css";
+
+@font-face {
+    font-family: 'a_AvanteLtNr';
+url('AvanteLtNr_SemiBold.ttf') format('TrueType');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    font-family: a_AvanteLtNr, Verdana, Geneva, sans-serif;
+    font-size: 16px;
+    color: #5b5643;
+    margin: 0px;
+    padding: 0px;
+    background: url("bg-cover.jpg") 50% 0 no-repeat, #d5921a;
+}
+
+h1 {
+    text-align: center;
+    color: #d5921a;
+}
+
+a {
+    text-decoration: none;
+}
+
+form {
+    margin: unset;
+}
+
+input {
+    border-radius: 5px;
+    font-family: inherit;
+    font-size: inherit;
+}
+
+select {
+    height: 30px;
+    text-align: center;
+    padding-right: 49px;
+    min-width: 130px;
+    border-radius: 5px;
+    background: url("select-botton.png") right center no-repeat white;
+}
+
+#wrapper {
+    height: 100%;
+    position: absolute;
+    left: 50%;
+    margin-left: -500px;
+}
+
+#leftBar {
+    height: 100%;
+    width: 80px;
+    background: url("bg-texture.png") #443020;
+    border-right: 4px solid white;
+    border-left: 4px solid white;
+    position: fixed;
+}
+
+#menu {
+    min-height: 700px;
+    background: url("bg-menu.png") no-repeat;
+}
+
+#home {
+    margin-top: 250px;
+}
+
+#cursor {
+    position: relative;
+    width: 100px;
+    height: 90px;
+}
+
+#main, #cover {
+    min-width: 920px;
+    margin-left: 88px;
+    position: absolute;
+
+}
+
+#main {
+    min-height: 700px;
+    padding-bottom: 50px;
+    background: url("bg-paper.png") #ffefd5;
+    box-shadow: 4px 0 4px -4px rgba(0, 0, 0, 0.5) inset, -4px 0 4px -4px rgba(0, 0, 0, 0.5) inset, 0 -4px 4px -4px rgba(0, 0, 0, 0.5) inset;
+    border-right: 4px solid white;
+    border-bottom: 4px solid white;
+    border-radius: 0px 0px 10px 0px;
+}
+
+#main ul {
+    display: inline-block;
+    font-weight: bold;
+    margin: 0px;
+    padding: 2px 20px;
+    text-align: left;
+    list-style-type: none;
+    /*background-color:  #f1d881;*/
+    background-color: rgba(241, 216, 129, 0.5);
+    border-radius: 0px 5px 5px 0px;
+    box-shadow: 4px 0 4px -4px rgba(0, 0, 0, 0.5) inset;
+}
+
+#main ul li {
+    display: inline;
+    padding: 0px 4px;
+
+}
+
+#user {
+    color: #d5921a;
+    font-weight: bold;
+    text-align: right;
+    margin: 4px 0px;
+    padding: 0px 20px;
+}
+
+#adminRole a {
+    color: #cc0000;
+}
+
+#console a {
+    color: #d5921a;
+}
+
+#userName {
+    float: left;
+}
+
+#menu ul {
+    margin-top: 400px;
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+}
+
+#wrapperMenu img {
+    width: 65px;
+    height: 65px;
+}
+
+#wrapperMenu img:hover {
+    width: 75px;
+    height: 75px;
+}
+
+#wrapperMenu {
+    padding-top: 120px;
+}
+
+#currencyHead, .linkRate a {
+    font-weight: bold;
+    color: #0da202;
+}
+
+.linkRate a:hover, #console a:hover, #adminRole a:hover {
+    text-decoration-line: underline;
+}

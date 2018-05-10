@@ -1,0 +1,107 @@
+#entrance {
+  width: 320px;
+  margin: 200px auto;
+  background-color: rgba(255, 255, 255, 0.4);
+  border-radius: 10px;
+  font-size: 24px;
+}
+
+#wrong, #bye, #reg {
+  margin: 0px;
+  padding-bottom: 10px;
+  text-align: center;
+}
+
+#wrong {
+  color: #c00;
+}
+
+#bye {
+  color: #443020;
+}
+
+#reg {
+  color: #0da202;
+}
+
+#entrance form {
+  margin: 0px;
+}
+
+#entrance input {
+  border: none;
+}
+
+.fieldLogin {
+  padding: 24px 24px 0px;
+}
+
+.fieldLogin input {
+  font-size: 20px;
+  font-weight: unset;
+  font-style: italic;
+  width: 100%;
+  height: 35px;
+  text-align: center;
+  box-shadow: inset 0px 0px 5px rgba(0, 0, 0, 0.5);
+  border-radius: 5px;
+}
+
+#login:invalid {
+  background: url("bg-login.png") no-repeat center, url("bg-paper.png"), #f9f4e6;
+}
+
+#login, #login:focus {
+  background: url("bg-paper.png"), #f9f4e6;
+}
+
+#pass:invalid {
+  background: url("bg-pass.png") no-repeat center, url("bg-paper.png"), #f9f4e6;
+}
+
+#pass, #pass:focus {
+  background: url("bg-paper.png"), #f9f4e6;
+}
+
+#entrance div.logIn, #entrance div.checkIn {
+  text-align: center;
+  padding: 12px 24px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+#entrance div.logIn a {
+  margin: 0px 10px;
+  color: #0da202;
+}
+
+#entrance div.logIn a:hover {
+  text-decoration-line: underline;
+}
+
+#entrance div.logIn input, #entrance div.checkIn input {
+  font-size: 20px;
+  font-weight: bold;
+  width: 110px;
+  height: 34px;
+  margin: 0px 10px;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#entrance div.logIn input:hover, #entrance div.checkIn input:hover {
+  color: white;
+  background-color: #d5921a;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#entrance div.checkIn input {
+  background-color: #0da202;
+}
+
+#entrance div.logIn input {
+  background-color: #443020;
+}

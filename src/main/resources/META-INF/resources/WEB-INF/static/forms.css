@@ -1,0 +1,401 @@
+select {
+  cursor: pointer;
+}
+
+#filter {
+  width: 726px;
+  margin: auto;
+  text-align: center;
+}
+
+.select {
+  width: 600px;
+  display: inline-block;
+  text-align: right;
+  vertical-align: center;
+  margin-bottom: 16px;
+}
+
+.addFilterButton {
+  float: right;
+  display: inline-block;
+  text-align: left;
+}
+
+.addFilterButton input,
+.addButton input,
+#addAdd .addButtonInline input,
+.addButtonInline input,
+#addSettings .addButtonInline input {
+  font-weight: bold;
+  min-width: 80px;
+  height: 80px;
+  font-size: 16px;
+  color: white;
+  border: 2px solid #d5921a;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: #f1d881;
+}
+
+.up {
+  font-weight: bold;
+  min-width: 30px;
+  height: 30px;
+  font-size: 16px;
+  color: white;
+  border: 2px solid #d5921a;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: #f1d881;
+}
+
+.addFilterButton input:hover,
+.addButton input:hover,
+#addAdd .addButtonInline input:hover,
+.addButtonInline input:hover,
+#addSettings .addButtonInline input:hover, .up:hover {
+  color: white;
+  background-color: #d5921a;
+}
+
+.accountFilter, .currencyFilter, .customerFilter, .entryFilter, .userRole {
+  border: 2px solid #d5921a;
+  box-sizing: border-box;
+}
+
+.accountFilter, .customerFilter, .entryFilter {
+  width: 290px;
+}
+
+.currencyFilter {
+  font-weight: bold;
+  float: right;
+  width: 130px;
+}
+
+.accountFilter, .customerFilter {
+  float: left;
+}
+
+select {
+  font-family: inherit;
+  font-size: inherit;
+  color: inherit;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
+#score {
+  text-align: center;
+  margin-top: -5px;
+  font-size: 32px;
+  font-weight: bold;
+  color: #0da202;
+}
+
+.updateUpdate, .updateTransaction, .updateTransfer {
+  display: inline-block;
+  border-radius: 0px 0px 5px 5px;
+  margin-bottom: 20px;
+}
+
+#addTransaction, #addTransfer, .updateUpdate, .updateTransaction, .updateTransfer {
+  padding: 20px 20px 10px 20px;
+  /*background-color:  #f1d881;*/
+  background-color: rgba(241, 216, 129, 0.5);
+
+}
+
+#addTransaction, #addTransfer, #addAdd {
+  margin: auto;
+  border-radius: 5px;
+}
+
+.transaction {
+  text-align: center;
+}
+
+.add, .addComment {
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.addSum {
+  float: left;
+}
+
+.addSum input, .selectPattern input {
+  width: 130px;
+}
+
+.addSum div {
+  margin-bottom: 20px;
+}
+
+.add input,
+#addTransaction select,
+#addTransfer select,
+#addAdd select,
+#addAdd input,
+#addSettings select,
+#addSettings input,
+.selectors input,
+.addComment input,
+.updateUpdate select,
+.updateTransfer select,
+.updateTransaction select {
+  height: 30px;
+  display: inline;
+  border: 2px solid white;
+  background-color: white;
+}
+
+.addCurrency {
+  display: block;
+  margin: auto;
+  width: 130px;
+  padding: 20px 6px;
+}
+
+.addCurrency select {
+  font-weight: bold;
+}
+
+.addComment {
+  text-align: center;
+}
+
+.addComment input {
+  width: 100%;
+}
+
+.addButton {
+  float: right;
+}
+
+.addButton input {
+  border: 2px solid #d5921a;
+}
+
+.selectPattern, .selectCurrency {
+  font-weight: bold;
+  display: inline-block;
+  text-align: center;
+  margin: -10px 0px 0px 0px;
+}
+
+.selectCurrency select {
+  font-weight: bold;
+}
+
+.accounts {
+  text-align: right;
+  float: left;
+}
+
+.selectors {
+  display: inline-block;
+  height: 30px;
+  padding: 30px 16px;
+}
+
+.accountOut {
+  margin-bottom: 20px;
+}
+
+.sendText {
+  display: inline-block;
+  text-align: right;
+  min-width: 78px;
+  font-weight: bold;
+  margin-right: 12px;
+}
+
+.sumOut input, .updateTransaction .sumOut input {
+  background-color: rgba(204, 0, 0, 0.4);
+}
+
+.sumIn input, .updateTransaction .sumIn input {
+  background-color: rgba(13, 162, 2, 0.4);
+}
+
+.deleteButton button {
+  cursor: pointer;
+  height: 30px;
+  width: 30px;
+  border: none;
+}
+
+.deleteButton button {
+  background: url("bg-delete.png") center center no-repeat;
+}
+
+.transferStyle, .profitStyle, .lossStyle, .zeroStyle {
+  height: 30px;
+  width: 30px;
+}
+
+.transferStyle {
+  background: url("bg-transfer.png") center center no-repeat;
+}
+
+.profitStyle {
+  background: url("bg-plus.png") center center no-repeat;
+}
+
+.lossStyle {
+  background: url("bg-minus.png") center center no-repeat;
+}
+
+.zeroStyle {
+  background: url("bg-smile.png") center center no-repeat;
+}
+
+.wrapperWrapper {
+  position: relative;
+  min-height: 50px;
+  width: 100%;
+  margin-top: -50px;
+  z-index: 1;
+  cursor: pointer;
+}
+
+.wrapperWrapper:hover {
+  background: url("bg-update.png") top center no-repeat;
+}
+
+.wrapperUpdate {
+  padding-top: 50px;
+  display: none;
+  z-index: 3;
+
+}
+
+.wrapperWrapper:active .wrapperUpdate {
+  display: block;
+}
+
+.wrapperUpdate:hover {
+  display: block;
+}
+
+#clickTransfer {
+  background: url("trnsfer-main.png") center center no-repeat;
+}
+
+#clickTransaction {
+  background: url("trnsaction-main.png") center center no-repeat;
+}
+
+#clickAccount {
+  background: url("account-main.png") center center no-repeat;
+}
+
+#clickCurrency {
+  background: url("currency-main.png") center center no-repeat;
+}
+
+#clickRate {
+  background: url("rate-main.png") center center no-repeat;
+}
+
+#clickCustomer {
+  background: url("customer-main.png") center center no-repeat;
+}
+
+#clickEntry {
+  background: url("entry-main.png") center center no-repeat;
+}
+
+#clickTransfer,
+#clickTransaction,
+#clickAccount,
+#clickCurrency,
+#clickRate,
+#clickCustomer,
+#clickEntry {
+  display: inline-block;
+  height: 60px;
+  width: 60px;
+  border: 2px solid transparent;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#clickTransfer:hover,
+#clickTransaction:hover,
+#clickAccount:hover,
+#clickCurrency:hover,
+#clickRate:hover,
+#clickCustomer:hover,
+#clickEntry:hover {
+  border: 2px solid #d5921a;
+  /*background-color:  #f1d881;*/
+  background-color: rgba(241, 216, 129, 0.5);
+}
+
+#checkTransfer, #checkTransaction, #checkCheck {
+  position: absolute;
+  top: -9999px;
+  left: -9999px;
+}
+
+#addTransfer, #addTransaction, #addAdd {
+  display: none;
+}
+
+#checkTransfer:checked + #addTransfer,
+#checkTransaction:checked + #addTransaction,
+#checkCheck:checked + #addAdd {
+  display: inline-block;
+}
+
+#addAdd, #addSettings {
+  padding: 10px 10px 10px 20px;
+  /*background-color:  #f1d881;*/
+  background-color: rgba(241, 216, 129, 0.5);
+  border-radius: 5px;
+}
+
+#addSettings {
+  display: inline-block;
+}
+
+.field, .addButtonInline, .fieldSum {
+  display: inline-block;
+}
+
+.field select, .field, .fieldSum {
+  text-align: center;
+  font-weight: bold;
+}
+
+.fieldSum input {
+  width: 130px;
+}
+
+.updateUpdate {
+  padding: 10px;
+}
+
+.updateUpdate .field input, .updateUpdate .field input, .updateUpdate .fieldSum input {
+  background-color: white;
+  min-height: 30px;
+  border: 2px solid white;
+}
+
+#wrapperSettings {
+  text-align: center;
+}
+
+input [type="checkbox"] {
+  padding: 0px;
+  margin: 0px;
+}
+
+#transactionLabel, #transferLabel, #labelLabel {
+  padding-bottom: 10px;
+  text-align: center;
+}

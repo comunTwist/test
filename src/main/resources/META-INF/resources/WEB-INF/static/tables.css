@@ -1,0 +1,43 @@
+table, td, tr {
+    border: none;
+}
+
+#transactions, #table, #wrapperSettings, .table {
+    padding-left: 20px;
+    margin: auto;
+}
+
+table {
+    font-size: 16px;
+    text-align: center;
+    border-spacing: 0px;
+    border-collapse: collapse;
+    empty-cells: hide;
+}
+
+td {
+    border-top: 1px solid #f1d881;
+    padding: 10px 10px;
+}
+
+th {
+    padding: 10px 10px;
+}
+
+.transaction:hover, .list:hover {
+    background-color: #f1d881;
+}
+
+.hidden, .hidden td, .hidden td:hover, .hidden:hover {
+    padding: 0px;
+    border: none;
+    background-color: transparent;
+}
+
+.sumInTd {
+    background-color: rgba(13, 162, 2, 0.4);
+}
+
+.sumOutTd {
+    background-color: rgba(204, 0, 0, 0.4);
+}
